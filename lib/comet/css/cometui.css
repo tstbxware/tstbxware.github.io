@@ -1,0 +1,141 @@
+@font-face {
+   font-family: SegoeUI-Regular;
+   src: url(/interface/cometui/css/fonts/suivsd.ttf);
+}
+
+@font-face {
+   font-family: SegoeUI-Medium;
+   src: url(/assets/css/fonts/Gotham-Bold.ttf);
+}
+
+@font-face {
+   font-family: SegoeUI-Bold;
+   src: url(/assets/css/fonts/Quicksand-Medium.ttf)
+}
+
+@font-face {
+   font-family: Determination;
+   src: url(/assets/comet/css/fonts/determination.otf);
+}
+
+@font-face {
+   font-family: iGoNerd;
+   src: url(/assets/comet/css/fonts/iGoNFC.ttf);
+}
+
+@font-face {
+   font-family: iGoNerdMono;
+   src: url(/assets/comet/css/fonts/iGoNFCM.ttf);
+}
+
+@font-face {
+   font-family: Gotham-Bold;
+   src: url(/assets/css/fonts/Gotham-Bold.ttf);
+}
+
+@font-face {
+   font-family: Gotham-Bold;
+   src: url(/assets/css/fonts/Gotham-Bold.ttf);
+}
+
+@font-face {
+   font-family: Gotham-Bold;
+   src: url(/assets/css/fonts/Gotham-Bold.ttf);
+}
+/* Fonts: Stylize text in each heading tags */
+disp_suir {
+   font-family: SegoeUI-Regular;
+   color: black;
+}
+
+disp_suim {
+   font-family: SegoeUI-Medium;
+   color: black;
+}
+
+disp_suib {
+   font-family: SegoeUI-Bold;
+   color: black;
+}
+
+disp_dtm {
+   font-family: Determination;
+   font-size: 30px;
+   color: black;
+}
+
+disp_dtm-alt {
+  font-family: Determination;
+  font-size: 15px;
+  color: black;
+}
+
+disp_ignm {
+  font-family: iGoNerdMono;
+  color: black;
+}
+
+/* Images: Add radius, but DO NOT radius image without the "Avatar" alt tag
+
+   Congrats. I'm here again. */
+.avatar {
+  vertical-align: middle;
+  width: 128px;
+  height: 128px;
+  border-radius: 5%;
+}
+
+.smallshit {
+  width: 187px;
+  height: 113px;
+}
+
+.altvatar {
+  border-radius: 7%;
+}
+/* Text Spacing (line-height) */
+p.sc {
+  line-height: 0.7;
+}
+
+/* Container Tabs */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ffffff;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ffffff;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ffffff;
+  border-top: none;
+}
+
+/* *insert random stuff here* */
+.bg-ambatukam {
+  background-color: #ffffff !important;
+}
