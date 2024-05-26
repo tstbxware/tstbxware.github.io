@@ -139,3 +139,40 @@ p.sc {
 .bg-ambatukam {
   background-color: #ffffff !important;
 }
+
+/* Team section */
+.team-section {
+            background-color: #1a1a1a;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .team-section img {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+        }
+        .team-section h3 {
+            margin: 0;
+            padding: 0;
+            font-size: 1.2em;
+        }
+        .team-member {
+            display: flex;
+            align-items: center;
+            background-color: #333;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .team-member img {
+            margin-right: 10px;
+        }
+        .github-icon {
+            margin-left: auto;
+        }
+        .github-icon img {
+            width: 24px;
+            height: 24px;
+        }
